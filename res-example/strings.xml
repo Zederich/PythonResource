@@ -1,0 +1,5 @@
+<StringRes xmlns="">
+    <str name="menu_title">Main Menu</str>
+    <str name="save_error">There was an error saving your request...</str>
+    <str name="bye">See you later!</str>
+</StringRes>

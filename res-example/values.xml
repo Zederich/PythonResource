@@ -1,0 +1,14 @@
+<ValueRes>
+    <int name="answer">42</int>
+    <float name="pi">3.141592653589793238462643383279</float>
+    <list name="people">
+        <str>Bill</str>
+        <str>Bob</str>
+        <str>Max</str>
+        <list>
+            <int>360</int>
+            <float>0.12345678</float>
+            <str>Done.</str>
+        </list>
+    </list>
+</ValueRes>
