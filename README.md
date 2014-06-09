@@ -6,20 +6,24 @@ What it Does
 ------------
 Resources are XML files containing predefined values. At the moment the only types of resource files are strings, but soon numbers, drawables and more will be added also.
 
-    <StrRes>
-        <str name="intro">Thank you for choosing this software.</str>
-        <str name="server_error">There is an issue with our server.</str>
-        <str name="ask_exit">Are you sure you would like to exit?</str>
-    </StrRes>
+~~~xml
+<StrRes>
+    <str name="intro">Thank you for choosing this software.</str>
+    <str name="server_error">There is an issue with our server.</str>
+    <str name="ask_exit">Are you sure you would like to exit?</str>
+</StrRes>
+~~~
 
 You can access the values extremely easily.
 
-    import pyres
-    
-    
-    R_str = pyres.RString("path/to/res/folder")    
-    
-    print(R_str.intro) 
+~~~python
+import pyres
+
+
+R_str = pyres.RString("path/to/res/folder")    
+
+print(R_str.intro) 
+~~~
 
 Benefits
 --------
